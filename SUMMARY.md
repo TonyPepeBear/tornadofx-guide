@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Part 1: TornadoFX Fundamentals](part1/0. Subsection.md)
+* [第一部分: TornadoFX 基本介紹](part1/0. Subsection.md)
   * [1. Why TornadoFX?](part1/1. Why TornadoFX.md)
   * [2. Setting Up](part1/2. Setting Up.md)
   * [3. Components](part1/3. Components.md)
