@@ -49,3 +49,12 @@ jobs:
         git push --force  "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_GITHUB_REF }}" master:${{ secrets.RES_FOR_PAGES }}
       env:
         CI: true
+    - name: build_gitbook_pdf
+      run: |
+        pwd
+        makdir artifact
+        gitbook pdf ./ ./artifact/TornadoFX-Guide.pdf
+    - uses: actions/upload-artifact@v1
+      with: 
+        name: artifact
+        path: ./artifact
