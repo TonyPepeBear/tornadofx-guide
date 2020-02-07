@@ -57,5 +57,5 @@ jobs:
         gitbook pdf ./ ./artifact/TornadoFX-Guide.pdf
     - uses: actions/upload-artifact@v1
       with: 
-        name: artifact
+        name: TornadoFX-Guide
         path: ./artifact
