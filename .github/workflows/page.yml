@@ -52,7 +52,7 @@ jobs:
     - name: build_gitbook_pdf
       run: |
         pwd
-        makdir artifact
+        mkdir artifact
         gitbook pdf ./ ./artifact/TornadoFX-Guide.pdf
     - uses: actions/upload-artifact@v1
       with: 
