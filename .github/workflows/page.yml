@@ -35,6 +35,7 @@ jobs:
         npm install gitbook-cli  -g
         gitbook -v
         gitbook install
+        sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
     - name: build_gitbook
       run: |
         gitbook build
