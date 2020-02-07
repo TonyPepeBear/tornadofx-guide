@@ -4,7 +4,7 @@
 * [第一部分: TornadoFX 基本介紹](part1/0. Subsection.md)
   * [1. 為什麼選擇 TornadoFX?](part1/1. Why TornadoFX.md)
   * [2. 配置](part1/2. Setting Up.md)
-  * [3. Components](part1/3. Components.md)
+  * [3. 組件](part1/3. Components.md)
   * [4. Basic Controls](part1/4. Basic Controls.md)
   * [5. Data Controls](part1/5. Data Controls.md)
   * [6. Type Safe CSS](part1/6. CSS.md)
