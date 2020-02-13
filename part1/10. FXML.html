@@ -1,0 +1,757 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>10. FXML · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="11. Editing Models and Validation.html" />
+    
+    
+    <link rel="prev" href="9. Shapes and Animation.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="0. Subsection.html">
+            
+                <a href="0. Subsection.html">
+            
+                    
+                    第一部分: TornadoFX 基本介紹
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1. Why TornadoFX.html">
+            
+                <a href="1. Why TornadoFX.html">
+            
+                    
+                    1. 為什麼選擇 TornadoFX?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2. Setting Up.html">
+            
+                <a href="2. Setting Up.html">
+            
+                    
+                    2. 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="3. Components.html">
+            
+                <a href="3. Components.html">
+            
+                    
+                    3. 組件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="4. Basic Controls.html">
+            
+                <a href="4. Basic Controls.html">
+            
+                    
+                    4. Basic Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="5. Data Controls.html">
+            
+                <a href="5. Data Controls.html">
+            
+                    
+                    5. Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="6. CSS.html">
+            
+                <a href="6. CSS.html">
+            
+                    
+                    6. Type Safe CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="7. Layouts and Menus.html">
+            
+                <a href="7. Layouts and Menus.html">
+            
+                    
+                    7. Layouts and Menus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="8. Charts.html">
+            
+                <a href="8. Charts.html">
+            
+                    
+                    8. Charts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="9. Shapes and Animation.html">
+            
+                <a href="9. Shapes and Animation.html">
+            
+                    
+                    9. Shapes and Animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.10" data-path="10. FXML.html">
+            
+                <a href="10. FXML.html">
+            
+                    
+                    10. FXML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="11. Editing Models and Validation.html">
+            
+                <a href="11. Editing Models and Validation.html">
+            
+                    
+                    11. Editing Models and Validation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="12. TornadoFX IDEA Plugin.html">
+            
+                <a href="12. TornadoFX IDEA Plugin.html">
+            
+                    
+                    12. TornadoFX IDEA Plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part2/0. Subsection.html">
+            
+                <a href="../part2/0. Subsection.html">
+            
+                    
+                    Part 2: TornadoFX Advanced Features
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part2/Property Delegates.html">
+            
+                <a href="../part2/Property Delegates.html">
+            
+                    
+                    Property Delegates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part2/Advanced Data Controls.html">
+            
+                <a href="../part2/Advanced Data Controls.html">
+            
+                    
+                    Advanced Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part2/OSGi.html">
+            
+                <a href="../part2/OSGi.html">
+            
+                    
+                    OSGi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../part2/Scopes.html">
+            
+                <a href="../part2/Scopes.html">
+            
+                    
+                    Scopes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../part2/EventBus.html">
+            
+                <a href="../part2/EventBus.html">
+            
+                    
+                    EventBus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../part2/Workspaces.html">
+            
+                <a href="../part2/Workspaces.html">
+            
+                    
+                    Workspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../part2/Layout Debugger.html">
+            
+                <a href="../part2/Layout Debugger.html">
+            
+                    
+                    Layout Debugger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../part2/Internationalization.html">
+            
+                <a href="../part2/Internationalization.html">
+            
+                    
+                    Internationalization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../part2/Config Settings and State.html">
+            
+                <a href="../part2/Config Settings and State.html">
+            
+                    
+                    Config Settings and State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../part2/JSON and REST.html">
+            
+                <a href="../part2/JSON and REST.html">
+            
+                    
+                    JSON and REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../part2/Dependency Injection.html">
+            
+                <a href="../part2/Dependency Injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../part2/Wizard.html">
+            
+                <a href="../part2/Wizard.html">
+            
+                    
+                    Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../part2/Integration.html">
+            
+                <a href="../part2/Integration.html">
+            
+                    
+                    Integrating with other tech
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part3/0. Subsection.html">
+            
+                <a href="../part3/0. Subsection.html">
+            
+                    
+                    Part 3: Cook Book
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../part3/Snippets.html">
+            
+                <a href="../part3/Snippets.html">
+            
+                    
+                    Snippets
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >10. FXML</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="fxml-and-internationalization">FXML and Internationalization</h1>
+<p>TornadoFX&apos;s type-safe builders provide a fast, easy, and declarative way to construct UI&apos;s. This DSL approach is encouraged because it is more flexible, reliable, and simpler. However, JavaFX also supports an XML-based structure called FXML that can also build a UI layout. TornadoFX has tools to streamline FXML usage for those that need it.</p>
+<p>If you are unfamiliar with FXML and are perfectly happy with type-safe builders, please feel free to skip this chapter. If you need to work with FXML or feel you should learn it, please read on. You can also take a look at the <a href="https://docs.oracle.com/javase/8/javafx/fxml-tutorial/why_use_fxml.htm" target="_blank">official FXML documentation</a> to learn more.</p>
+<h2 id="reasons-for-considering-fxml">Reasons for Considering FXML</h2>
+<p>While the developers of TornadoFX strongly encourage using type-safe builders, there are situations and factors that might cause you to consider using FXML.</p>
+<h3 id="separation-of-concerns">Separation of Concerns</h3>
+<p>With FXML it is easy to separate your UI logic code from the UI layout code. This separation is just as achievable with type-safe builders by utilizing MVP or other separation pattern. But some programmers find FXML forces them to maintain this separation and prefer it for that reason.</p>
+<h3 id="wysiwyg-editor">WYSIWYG Editor</h3>
+<p>FXML files also can be edited and processed by <a href="http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html" target="_blank">Scene Builder</a>, a visual layout tool that allows building interfaces via drag-and-drop functionality. Edits in Scene Builder are immediately rendered in a WYSIWYG (&quot;What You See is What You Get&quot;) pane next to the editor.</p>
+<p>If you prefer making interfaces via drag-and-drop, or have trouble building UI&apos;s with pure code, you might consider using FXML simply to leverage Scene Builder.</p>
+<blockquote>
+<p>The Scene Builder tool was created by Oracle/Sun but is now <a href="http://gluonhq.com/labs/scene-builder/" target="_blank">maintained by Gluon</a>, an innovative company that invests heavily in JavaFX technology, especially for the mobile market.</p>
+</blockquote>
+<h3 id="compatibility-with-existing-codebases">Compatibility with Existing Codebases</h3>
+<p>If you are converting an existing JavaFX application to TornadoFX, there is a strong chance your UI was constructed with FXML. If you hesitate to transition legacy FXML to TornadoFX buidlers, or would like to put that off as long as possible, TornadoFX can at least streamline the processing of FXML.</p>
+<h2 id="how-fxml-works">How FXML works</h2>
+<p>The <code>root</code> property of a <code>View</code> represents the top level <code>Node</code> containing a hierarchy of children Nodes, which makes up the user interface. When you work with FXML, you do not instantiate this root node directly, but instead ask TornadoFX to load it from a corresponding FXML file. By default, TornadoFX will look for a file with the same name as your view with the <code>.fxml</code> file ending in the same package as your <code>View</code> class. You can also override the FXML location with a parameter if you want to put all your FXML files in a single folder or organize them some other way that does not directly correspond to your <code>View</code> location.</p>
+<h2 id="a-simple-example">A Simple Example</h2>
+<p>Let&apos;s create a basic user interface that presents a <code>Label</code> and a <code>Button</code>. We will add functionality to this view so when the <code>Button</code> is clicked, the <code>Label</code> will update its <code>text</code> with the number of times the <code>Button</code> has been clicked.</p>
+<p>Create a file named <code>CounterView.fxml</code> with the following content:</p>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>import javafx.geometry.Insets<span class="hljs-meta">?&gt;</span></span>
+<span class="php"><span class="hljs-meta">&lt;?</span>import javafx.scene.control.Button<span class="hljs-meta">?&gt;</span></span>
+<span class="php"><span class="hljs-meta">&lt;?</span>import javafx.scene.control.Label<span class="hljs-meta">?&gt;</span></span>
+<span class="php"><span class="hljs-meta">&lt;?</span>import javafx.scene.layout.BorderPane<span class="hljs-meta">?&gt;</span></span>
+<span class="php"><span class="hljs-meta">&lt;?</span>import javafx.scene.layout.VBox<span class="hljs-meta">?&gt;</span></span>
+<span class="php"><span class="hljs-meta">&lt;?</span>import javafx.scene.text.Font<span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">BorderPane</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://javafx.com/javafx/null&quot;</span> <span class="hljs-attr">xmlns:fx</span>=<span class="hljs-string">&quot;http://javafx.com/fxml/1&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">padding</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Insets</span> <span class="hljs-attr">top</span>=<span class="hljs-string">&quot;20&quot;</span> <span class="hljs-attr">right</span>=<span class="hljs-string">&quot;20&quot;</span> <span class="hljs-attr">bottom</span>=<span class="hljs-string">&quot;20&quot;</span> <span class="hljs-attr">left</span>=<span class="hljs-string">&quot;20&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">padding</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">center</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">VBox</span> <span class="hljs-attr">alignment</span>=<span class="hljs-string">&quot;CENTER&quot;</span> <span class="hljs-attr">spacing</span>=<span class="hljs-string">&quot;10&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">Label</span> <span class="hljs-attr">text</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">font</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Font</span> <span class="hljs-attr">size</span>=<span class="hljs-string">&quot;20&quot;</span>/&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">font</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Label</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">text</span>=<span class="hljs-string">&quot;Click to increment&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">VBox</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">center</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">BorderPane</span>&gt;</span>
+</code></pre>
+<blockquote>
+<p>You may notice above you have to <code>import</code> the types you use in FXML just like coding in Java or Kotlin. Intellij IDEA should have a plugin to support using ALT+ENTER to generate the <code>import</code> statements.</p>
+</blockquote>
+<p>If you load this file in Scene Builder you will see the following result (Figure 9.1).</p>
+<p><strong>Figure 9.1</strong></p>
+<p><img src="https://i.imgur.com/WulUHYa.png" alt=""></p>
+<p>Next let&apos;s load this FXML into TornadoFX.</p>
+<h3 id="loading-fxml-into-tornadofx">Loading FXML into TornadoFX</h3>
+<p>We have created an FXML file containing our UI structure, but now we need to load it into a TornadoFX <code>View</code> for it to be usable. Logically, we can load this <code>Node</code> hierarchy into the <code>root</code> node of our <code>View</code>. Define the following <code>View</code> class:</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterView</span> : <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> : BorderPane by fxml()
+}
+</code></pre>
+<p>Note that the <code>root</code> property is defined by the <code>fxml()</code> delegate. The <code>fxml()</code> delegate takes care of loading the corresponding <code>CounterView.fxml</code> into the <code>root</code> property.  If we placed <code>CounterView.fxml</code> in a different location (such as <code>/views/</code>) that is different than where the <code>CounterView</code> file resides, we would add a parameter.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterView</span> : <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> : BorderPane by fxml(<span class="hljs-string">&quot;/views/CounterView.fxml&quot;</span>)
+}
+</code></pre>
+<p>We have laid out the UI, but it has no functionality yet. We need to define a variable that holds the number of times the <code>Button</code> has been clicked. Add a variable called <code>counter</code> and define a function that will increment its value:</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterView</span> : <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> : BorderPane by fxml()
+    <span class="hljs-variable"><span class="hljs-keyword">val</span> counter</span> = SimpleIntegerProperty()
+
+    <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">increment</span><span class="hljs-params">()</span> {</span>
+        counter.value += <span class="hljs-number">1</span>
+    }
+}
+</code></pre>
+<p>We want the <code>increment()</code> function to be called whenever the <code>Button</code> is clicked. Back in the FXML file, add the <code>onAction</code> attribute to the button:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">text</span>=<span class="hljs-string">&quot;Click to increment&quot;</span> <span class="hljs-attr">onAction</span>=<span class="hljs-string">&quot;#increment&quot;</span>/&gt;</span>
+</code></pre>
+<p>Since the FXML file automatically gets bound to our <code>View,</code> we can reference functions via the <code>#functionName</code> syntax. Note that we do not add parenthesis to the function call, and you cannot pass parameters directly. You can however add a parameter of type <code>javafx.event.ActionEvent</code> to the <code>increment</code> function if you want inspect the source <code>Node</code> of the action or check what kind of action triggered the button. For this example we do not need it, so we leave the <code>increment</code> function without parameters.</p>
+<h2 id="fxml-file-locations">FXML file locations</h2>
+<p>By default, build tools like Maven and Gradle will ignore any extra resources you put into your source root folders, so if you put your FXML files there they won&apos;t be available at runtime unless you specifically tell your build tool to include them. This could still be problematic because IDEA might not pick up your custom resource location from the build file, once again resulting in failure at runtime. For that resource, we recommend that you place your FXML files in <code>src/main/resources</code> and either follow the same folder structure as your packages, or put them all in a <code>views</code> folder or similar. The latter requires you to add the FXML location parameter to the <code>fxml</code> delegate, and might be messy if you have a large number of Views, so going with the default is a good idea.</p>
+<h2 id="accessing-nodes-with-the-fxid-delegate">Accessing Nodes with the <code>fxid</code> delegate</h2>
+<p>Using just FXML, we have wired the <code>Button</code> to call <code>increment()</code> every time it is called. We still need to bind the <code>counter</code> value to the <code>text</code> property of the <code>Label</code>. To do this, we need an identifier for the <code>Label</code>, so in our FXML file we add the <code>fx:id</code> attribute to it.</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Label</span> <span class="hljs-attr">fx:id</span>=<span class="hljs-string">&quot;counterLabel&quot;</span>&gt;</span>
+</code></pre>
+<p>Now we can inject this <code>Label</code> into our <code>View</code> class:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> counterLabel</span> : Label by fxid()
+</code></pre>
+<p>This tells TornadoFX to look for a <code>Node</code> in our structure with the <code>fx:id</code> property with the same name as the property we defined (which is &quot;counterLabel&quot;). It is also possible to use another property name in the <code>View</code> and add a name parameter to the <code>fxid</code> delegate:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> myLabel</span> : Label by fxid(<span class="hljs-string">&quot;counterLabel&quot;</span>)
+</code></pre>
+<p>Now that we have a hold of the <code>Label</code>, we can use the binding shortcuts of TornadoFX to bind the <code>counter</code> value to the <code>text</code> property of the <code>counterLabel</code>. Our whole <code>View</code> should now look like this:</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CounterView</span> : <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> : BorderPane by fxml()
+    <span class="hljs-variable"><span class="hljs-keyword">val</span> counter</span> = SimpleIntegerProperty()
+    <span class="hljs-variable"><span class="hljs-keyword">val</span> counterLabel</span>: Label by fxid()
+
+    init {
+        counterLabel.bind(counter)
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">increment</span><span class="hljs-params">()</span> {</span>
+        counter.value += <span class="hljs-number">1</span>
+    }
+}
+</code></pre>
+<p>Our app is now complete. Every time the button is clicked, the <code>label</code> will increment its count.</p>
+<h2 id="internationalization">Internationalization</h2>
+<p>JavaFX has strong support for multi-language UI&apos;s. To support internationalization in FXML, you normally have to register a resource bundle with the <code>FXMLLoader</code> and it will in return replace instances of resource names with their locale-specific value. A resource name is the key in the resource bundle prepended with <code>%</code>.</p>
+<p>TornadoFX makes this easier by supporting a convention for resource bundles: Create a resource bundle with the same base name as your <code>View</code>, and it will be automatically loaded, both for use programatically within the <code>View</code> and from the FXML file.</p>
+<p>Let&apos;s internationalize the button text in our UI. Create a file called <code>CounterView.properties</code> and add the following content:</p>
+<pre><code>clickToIncrement=Click to increment
+</code></pre><p>If you want to support multiple languages, create a file with the same base name followed by an underscore, and then the language code. For instance, to support French create the file <code>CounterView_fr.properties</code>. The closest geographical match to the current locale will be used.</p>
+<pre><code>clickToIncrement=Cliquez sur incr&#xE9;ment
+</code></pre><p>Now we swap the button text with the resource key in the FXML file.</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Button</span> <span class="hljs-attr">text</span>=<span class="hljs-string">&quot;%clickToIncrement&quot;</span> <span class="hljs-attr">onAction</span>=<span class="hljs-string">&quot;#increment&quot;</span>/&gt;</span>
+</code></pre>
+<p>If you want to test this functionality and force a different <code>Locale</code>, regardless which one you are currently in, override it by assigning <code>FX.local</code> when your <code>App</code> class is initialized.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> primaryView</span> = MyView::<span class="hljs-class"><span class="hljs-keyword">class</span></span>
+
+    init {
+        FX.locale = Locale.FRENCH
+    }
+}
+</code></pre>
+<p>You should then see your <code>Button</code> use the French text (Figure 9.2).</p>
+<p><strong>Figure 9.2</strong></p>
+<p><img src="https://i.imgur.com/WqovpnM.png" alt=""></p>
+<h3 id="internationalization-with-type-safe-builders">Internationalization with Type-Safe Builders</h3>
+<p>Internationalization is not limited for use with FXML. You can also use it with type-safe builders. Set up your <code>.properties</code> files as specified before. But instead of using an embedded <code>%clickToIncrement</code> text in an FXML file, use the <code>messages[]</code> accessor to look up the value in the <code>ResourceBundle</code>. Pass this value as the <code>text</code> for the <code>Button</code>.</p>
+<pre><code class="lang-kotlin"> button(messages[<span class="hljs-string">&quot;clickToIncrement&quot;</span>]) {
+     setOnAction { increment() }
+ }
+</code></pre>
+<h2 id="summary">Summary</h2>
+<p>FXML is helpful to know as a JavaFX developer, but it is definitely not required if you are content with TornadoFX type-safe builders and do not have any existing JavaFX applications to maintain. Type-safe builders have the benefit of using pure Kotlin, allowing you to code anything you want right within the structure declarations. FXML&apos;s benefits are primarily separation of concerns between UI and functionality, but even that can be accomplished with type-safe builders. It also can be built via drag-and-drop through the Scene Builder tool, which may be preferable for those who struggle to build UI&apos;s any other way.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="9. Shapes and Animation.html" class="navigation navigation-prev " aria-label="Previous page: 9. Shapes and Animation">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="11. Editing Models and Validation.html" class="navigation navigation-next " aria-label="Next page: 11. Editing Models and Validation">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"10. FXML","level":"1.2.10","depth":2,"next":{"title":"11. Editing Models and Validation","level":"1.2.11","depth":2,"path":"part1/11. Editing Models and Validation.md","ref":"part1/11. Editing Models and Validation.md","articles":[]},"previous":{"title":"9. Shapes and Animation","level":"1.2.9","depth":2,"path":"part1/9. Shapes and Animation.md","ref":"part1/9. Shapes and Animation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part1/10. FXML.md","mtime":"2020-02-13T15:46:37.950Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-13T15:47:39.413Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

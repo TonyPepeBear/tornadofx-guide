@@ -1,0 +1,1139 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>6. Type Safe CSS · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="7. Layouts and Menus.html" />
+    
+    
+    <link rel="prev" href="5. Data Controls.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="0. Subsection.html">
+            
+                <a href="0. Subsection.html">
+            
+                    
+                    第一部分: TornadoFX 基本介紹
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1. Why TornadoFX.html">
+            
+                <a href="1. Why TornadoFX.html">
+            
+                    
+                    1. 為什麼選擇 TornadoFX?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2. Setting Up.html">
+            
+                <a href="2. Setting Up.html">
+            
+                    
+                    2. 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="3. Components.html">
+            
+                <a href="3. Components.html">
+            
+                    
+                    3. 組件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="4. Basic Controls.html">
+            
+                <a href="4. Basic Controls.html">
+            
+                    
+                    4. Basic Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="5. Data Controls.html">
+            
+                <a href="5. Data Controls.html">
+            
+                    
+                    5. Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="6. CSS.html">
+            
+                <a href="6. CSS.html">
+            
+                    
+                    6. Type Safe CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="7. Layouts and Menus.html">
+            
+                <a href="7. Layouts and Menus.html">
+            
+                    
+                    7. Layouts and Menus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="8. Charts.html">
+            
+                <a href="8. Charts.html">
+            
+                    
+                    8. Charts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="9. Shapes and Animation.html">
+            
+                <a href="9. Shapes and Animation.html">
+            
+                    
+                    9. Shapes and Animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="10. FXML.html">
+            
+                <a href="10. FXML.html">
+            
+                    
+                    10. FXML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="11. Editing Models and Validation.html">
+            
+                <a href="11. Editing Models and Validation.html">
+            
+                    
+                    11. Editing Models and Validation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="12. TornadoFX IDEA Plugin.html">
+            
+                <a href="12. TornadoFX IDEA Plugin.html">
+            
+                    
+                    12. TornadoFX IDEA Plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part2/0. Subsection.html">
+            
+                <a href="../part2/0. Subsection.html">
+            
+                    
+                    Part 2: TornadoFX Advanced Features
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part2/Property Delegates.html">
+            
+                <a href="../part2/Property Delegates.html">
+            
+                    
+                    Property Delegates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part2/Advanced Data Controls.html">
+            
+                <a href="../part2/Advanced Data Controls.html">
+            
+                    
+                    Advanced Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../part2/OSGi.html">
+            
+                <a href="../part2/OSGi.html">
+            
+                    
+                    OSGi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../part2/Scopes.html">
+            
+                <a href="../part2/Scopes.html">
+            
+                    
+                    Scopes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../part2/EventBus.html">
+            
+                <a href="../part2/EventBus.html">
+            
+                    
+                    EventBus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../part2/Workspaces.html">
+            
+                <a href="../part2/Workspaces.html">
+            
+                    
+                    Workspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../part2/Layout Debugger.html">
+            
+                <a href="../part2/Layout Debugger.html">
+            
+                    
+                    Layout Debugger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../part2/Internationalization.html">
+            
+                <a href="../part2/Internationalization.html">
+            
+                    
+                    Internationalization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../part2/Config Settings and State.html">
+            
+                <a href="../part2/Config Settings and State.html">
+            
+                    
+                    Config Settings and State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../part2/JSON and REST.html">
+            
+                <a href="../part2/JSON and REST.html">
+            
+                    
+                    JSON and REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../part2/Dependency Injection.html">
+            
+                <a href="../part2/Dependency Injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../part2/Wizard.html">
+            
+                <a href="../part2/Wizard.html">
+            
+                    
+                    Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../part2/Integration.html">
+            
+                <a href="../part2/Integration.html">
+            
+                    
+                    Integrating with other tech
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part3/0. Subsection.html">
+            
+                <a href="../part3/0. Subsection.html">
+            
+                    
+                    Part 3: Cook Book
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../part3/Snippets.html">
+            
+                <a href="../part3/Snippets.html">
+            
+                    
+                    Snippets
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >6. Type Safe CSS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="type-safe-css">Type-Safe CSS</h1>
+<p>While you can create plain text CSS style sheets in JavaFX, TornadoFX provides the option to bring type-safety and compiled CSS to JavaFX. You can conveniently choose to create styles in its own class, or do it inline within a control declaration.</p>
+<h3 id="inline-css">Inline CSS</h3>
+<p>The quickest and easiest way to style a control on the fly is to call a given <code>Node</code>&apos;s inline <code>style { }</code> function. All the CSS properties available on a given control are available in a type-safe manner, with compilation checks and auto-completion.</p>
+<p>For example, you can style the borders on a <code>Button</code> (using the <code>box()</code> function), bold its font, and rotate it (Figure 6.1).</p>
+<pre><code class="lang-kotlin">button(<span class="hljs-string">&quot;Press Me&quot;</span>) {
+    style {
+        fontWeight = FontWeight.EXTRA_BOLD
+        borderColor += box(
+                top = Color.RED,
+                right = Color.DARKGREEN,
+                left = Color.ORANGE,
+                bottom = Color.PURPLE
+        )
+        rotate = <span class="hljs-number">45.</span>deg
+    }
+
+    setOnAction { println(<span class="hljs-string">&quot;You pressed the button&quot;</span>) }
+}
+</code></pre>
+<p><strong>Figure 6.1</strong></p>
+<p><img src="https://i.imgur.com/ELI2VdV.png" alt=""></p>
+<p>This is especially helpful when you want to style a control without breaking the declaration flow of the <code>Button</code>. However, keep in mind the <code>style { }</code> will replace all styles applied to that control unless you pass <code>true</code> for its optional <code>append</code> argument.</p>
+<pre><code class="lang-kotlin">style(append = <span class="hljs-literal">true</span>) {
+      ....
+}
+</code></pre>
+<p>Some times you want to apply the same styles to many nodes in one go. The <code>style { }</code> function can also be applied to any Iterable that contains Nodes:</p>
+<pre><code class="lang-kotlin">vbox {
+    label(<span class="hljs-string">&quot;First&quot;</span>)
+    label(<span class="hljs-string">&quot;Second&quot;</span>)
+    label(<span class="hljs-string">&quot;Third&quot;</span>)
+    children.style {
+        fontWeight = FontWeight.BOLD
+    }
+}
+</code></pre>
+<p>The <code>fontWeight</code> style is applied to all children of the vbox, in essence all the labels we added.</p>
+<p>When your styling complexity passes a certain threshold, you may want to consider using Stylesheets which we will cover next.</p>
+<h3 id="applying-style-classes-with-stylesheets">Applying Style Classes with Stylesheets</h3>
+<p>If you want to organize, re-use, combine, and override styles you need to leverage a <code>Stylesheet</code>. Traditionally in JavaFX, a stylesheet is defined in a plain CSS text file included in the project. However, TornadoFX allows creating stylesheets with pure Kotlin code. This has the benefits of compilation checks, auto-completion, and other perks that come with statically typed code.</p>
+<p>To declare a <code>Stylesheet</code>, extend it onto your own class to hold your customized styles.</p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+}
+</code></pre>
+<p>Next, you will want to specify its <code>companion object</code> to hold class-level properties that can easily be retrieved. Declare a new <code>cssclass()</code>-delegated property called <code>tackyButton</code>, and define four colors we will use for its borders.</p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.paint.Color
+<span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> tackyButton by cssclass()
+
+        private <span class="hljs-keyword">val</span> topColor</span> = Color.RED
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> rightColor</span> = Color.DARKGREEN
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> leftColor</span> = Color.ORANGE
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> bottomColor</span> = Color.PURPLE
+    }
+}
+</code></pre>
+<p>Note also you can use the <code>c()</code> function to build colors quickly using RGB values or color Strings.</p>
+<pre><code class="lang-kotlin">  <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> topColor</span> = c(<span class="hljs-string">&quot;#FF0000&quot;</span>)
+  <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> rightColor</span> = c(<span class="hljs-string">&quot;#006400&quot;</span>)
+  <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> leftColor</span> = c(<span class="hljs-string">&quot;#FFA500&quot;</span>)
+  <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> bottomColor</span> = c(<span class="hljs-string">&quot;#800080&quot;</span>)
+</code></pre>
+<p>Finally, declare an <code>init()</code> block to apply styling to the classes. Define your selection and provide a block that manipulates its various properties. (For compound selections, call the <code>s()</code> function, which is an alias for the <code>select()</code> function). Set <code>rotate</code> to 10 degrees, define the <code>borderColor</code> using the four colors and the <code>box()</code> function, make the font family &quot;Comic Sans MS&quot;, and increase the <code>fontSize</code> to 20 pixels. Note that there are extension properties for <code>Number</code> types to quickly yield the value in that unit, such as <code>10.deg</code> for 10 degrees and <code>20.px</code> for 20 pixels.</p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.paint.Color
+<span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> tackyButton by cssclass()
+
+        private <span class="hljs-keyword">val</span> topColor</span> = Color.RED
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> rightColor</span> = Color.DARKGREEN
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> leftColor</span> = Color.ORANGE
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> bottomColor</span> = Color.PURPLE
+    }
+
+    init {
+        tackyButton {
+            rotate = <span class="hljs-number">10.</span>deg
+            borderColor += box(topColor,rightColor,bottomColor,leftColor)
+            fontFamily = <span class="hljs-string">&quot;Comic Sans MS&quot;</span>
+            fontSize = <span class="hljs-number">20.</span>px
+        }
+    }
+}
+</code></pre>
+<p>Now you can apply the <code>tackyButton</code> style to buttons, labels, and other controls that support these properties. While this styling can work with other controls like labels, we are going to target buttons in this example.</p>
+<p>First, load the <code>MyStyle</code> stylesheet into your application by including it as contructor parameter.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">MyStyle::class) {</span></span>
+    init {
+        reloadStylesheetsOnFocus()
+    }
+}
+</code></pre>
+<blockquote>
+<p>The <code>reloadStylesheetsOnFocus()</code> function call will instruct TornadoFX to reload the Stylesheets every time the <code>Stage</code> gets focus. You can also pass the <code>--live-stylesheets</code> argument to the application to accomplish this.</p>
+</blockquote>
+<p><strong>Important:</strong> For the reload to work, you must be running the JVM in debug mode and you must instruct your IDE to recompile before you switch back to your app. Without these steps, nothing will happen. This also applies to <code>reloadViewsOnFocus()</code> which is similar, but reloads the whole view instead of just the stylesheet. This way, you can evolve your UI very rapidly in a &quot;code change, compile, refresh&quot; manner.</p>
+<p>You can apply styles directly to a control by calling its <code>addClass()</code> function. Provide the <code>MyStyle.tackyButton</code> style to two buttons (Figure 6.2).</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span>: <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = vbox {
+        button(<span class="hljs-string">&quot;Press Me&quot;</span>) {
+            addClass(MyStyle.tackyButton)
+        }
+        button(<span class="hljs-string">&quot;Press Me Too&quot;</span>) {
+            addClass(MyStyle.tackyButton)
+        }
+    }
+}
+</code></pre>
+<p><strong>Figure 6.2</strong></p>
+<p><img src="https://i.imgur.com/INPUj7s.png" alt=""></p>
+<blockquote>
+<p>Intellij IDEA can perform a quickfix to import member variables, allowing <code>addClass(MyStyle.tackyButton)</code> to be shortened to <code>addClass(tackyButton)</code> if you prefer.</p>
+</blockquote>
+<p>You can use <code>removeClass()</code> to remove the specified style as well.</p>
+<h4 id="targeting-styles-to-a-type">Targeting Styles to a Type</h4>
+<p>One of the benefits of using pure Kotlin is you can tightly manipulate UI control behavior and conditions using Kotlin code. For example, you can apply the style to any <code>Button</code> by iterating through a control&apos;s <code>children</code>, filtering for only children that are Buttons, and applying the <code>addClass()</code> to them.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span>: <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = vbox {
+        button(<span class="hljs-string">&quot;Press Me&quot;</span>)
+        button(<span class="hljs-string">&quot;Press Me Too&quot;</span>)
+
+        children.asSequence()
+                .filter { it <span class="hljs-keyword">is</span> Button }
+                .forEach { it.addClass(MyStyle.tackyButton) }
+    }
+}
+</code></pre>
+<p>Infact, manipulating classes on several nodes at once is so common that TornadoFX provides a shortcut for it:</p>
+<pre><code class="lang-kotlin">children.filter { it <span class="hljs-keyword">is</span> Button }.addClass(MyStyle.tackyButton) }
+</code></pre>
+<p>You can also target all <code>Button</code> instances in your application by selecting and modifying the <code>button</code> in the <code>Stylesheet</code>. This will apply the style to all Buttons.</p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.paint.Color
+<span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> tackyButton by cssclass()
+
+        private <span class="hljs-keyword">val</span> topColor</span> = Color.RED
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> rightColor</span> = Color.DARKGREEN
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> leftColor</span> = Color.ORANGE
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> bottomColor</span> = Color.PURPLE
+    }
+
+    init {
+        button {
+            rotate = <span class="hljs-number">10.</span>deg
+            borderColor += box(topColor,rightColor,leftColor,bottomColor)
+            fontFamily = <span class="hljs-string">&quot;Comic Sans MS&quot;</span>
+            fontSize = <span class="hljs-number">20.</span>px
+        }
+    }
+}
+</code></pre>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.layout.VBox
+<span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">MyStyle::class) {</span></span>
+    init {
+        reloadStylesheetsOnFocus()
+    }
+}
+</code></pre>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span>: <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = vbox {
+        button(<span class="hljs-string">&quot;Press Me&quot;</span>)
+        button(<span class="hljs-string">&quot;Press Me Too&quot;</span>)
+    }
+}
+</code></pre>
+<p><strong>Figure 6.3</strong></p>
+<p><img src="https://i.imgur.com/INPUj7s.png" alt=""></p>
+<p>Note also you can select multiple classes and control types to mix-and-match styles. For example, you can set the font size of labels and buttons to 20 pixels, and create tacky borders and fonts only for buttons (Figure 6.4).</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> topColor</span> = Color.RED
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> rightColor</span> = Color.DARKGREEN
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> leftColor</span> = Color.ORANGE
+        <span class="hljs-keyword">private</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> bottomColor</span> = Color.PURPLE
+    }
+
+    init {
+        s(button, label) {
+            fontSize = <span class="hljs-number">20.</span>px
+        }
+        button {
+            rotate = <span class="hljs-number">10.</span>deg
+            borderColor += box(topColor,rightColor,leftColor,bottomColor)
+            fontFamily = <span class="hljs-string">&quot;Comic Sans MS&quot;</span>
+        }
+    }
+}
+</code></pre>
+<pre><code>class MyApp: App(MyView::class, MyStyle::class) {
+    init {
+        reloadStylesheetsOnFocus()
+    }
+}
+
+class MyView: View() {
+    override val root = vbox {
+        label(&quot;Lorem Ipsum&quot;)
+        button(&quot;Press Me&quot;)
+        button(&quot;Press Me Too&quot;)
+    }
+}
+</code></pre><p><strong>Figure 6.4</strong></p>
+<p><img src="https://i.imgur.com/rgT8Kfy.png" alt=""></p>
+<h4 id="other-types-of-selectors">Other types of selectors</h4>
+<p>TornadoFX supports selecting nodes based on their element name, ID, and style-class, and also has support for pseudo-classes. The following example shows how each of them can be used:</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> udp by csselement(&quot;UpsideDownPane&quot;)
+        <span class="hljs-keyword">val</span> phantomZone by cssid()
+        <span class="hljs-keyword">val</span> fancyPants by cssclass()
+        <span class="hljs-keyword">val</span> interactive by csspseudoclass()
+    }
+
+    init {
+        udp {
+            fontSize</span> = <span class="hljs-number">20.</span>px
+        }
+        phantomZone {
+            backgroundColor += c(<span class="hljs-string">&quot;black&quot;</span>)
+        }
+        fancyPants {
+            backgroundColor += c(<span class="hljs-string">&quot;orange&quot;</span>)
+        }
+        label and interactive {
+            textFill = c(<span class="hljs-string">&quot;green&quot;</span>)
+        }
+    }
+}
+</code></pre>
+<p>And would result in the following CSS:</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">UpsideDownPane</span> {
+    <span class="hljs-attribute">-fx-font-size</span>: <span class="hljs-number">20px</span>;
+}
+<span class="hljs-selector-id">#phantom-zone</span> {
+    <span class="hljs-attribute">-fx-background-color</span>: <span class="hljs-number">#000000ff</span>;
+}
+<span class="hljs-selector-class">.fancy-pants</span> {
+    <span class="hljs-attribute">-fx-background-color</span>: <span class="hljs-number">#ff8000ff</span>;
+}
+<span class="hljs-selector-tag">label</span><span class="hljs-selector-pseudo">:interactive</span> {
+    <span class="hljs-attribute">-fx-test-fill</span>: <span class="hljs-number">#008000ff</span>;
+}
+</code></pre>
+<h3 id="multi-value-css-properties">Multi-Value CSS Properties</h3>
+<p>Some CSS properties accept multiple values, and TornadoFX Stylesheets can streamline this with the <code>multi()</code> function. This allows you to specify multiple values via a <code>varargs</code> parameter and let TornadoFX take care of the rest. For instance, you can nest multiple background colors and insets into a control (Figure 6.5).</p>
+<pre><code class="lang-kotlin">label(<span class="hljs-string">&quot;Lore Ipsum&quot;</span>) {
+    style {
+        fontSize = <span class="hljs-number">30.</span>px
+        backgroundColor = multi(Color.RED, Color.BLUE, Color.YELLOW)
+        backgroundInsets = multi(box(<span class="hljs-number">4.</span>px), box(<span class="hljs-number">8.</span>px), box(<span class="hljs-number">12.</span>px))
+    }
+}
+</code></pre>
+<p><strong>Figure 6.5</strong></p>
+<p><img src="https://i.imgur.com/TgtS8nX.png" alt=""></p>
+<p>The <code>multi()</code> function should work wherever multiple values are accepted. If you want to only assign a single value to a property that accepts multiple values, you will need to use the <code>plusAssign()</code> operator to add it (Figure 6.6).</p>
+<pre><code class="lang-kotlin">label(<span class="hljs-string">&quot;Lore Ipsum&quot;</span>) {
+    style {
+        fontSize = <span class="hljs-number">30.</span>px
+        backgroundColor += Color.RED
+        backgroundInsets += box(<span class="hljs-number">4.</span>px)
+    }
+}
+</code></pre>
+<p><strong>Figure 6.6</strong></p>
+<p><img src="https://i.imgur.com/EU43LLh.png" alt=""></p>
+<h3 id="nesting-styles">Nesting Styles</h3>
+<p>Inside a selector block  you can apply further styles targeting child controls.</p>
+<p>For instance, define a CSS class called <code>critical</code>. Make it put an orange border around any control it is applied to, and pad it by 5 pixels.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> critical by cssclass()
+    }
+
+    init {
+        critical {
+            borderColor +</span>= box(Color.ORANGE)
+            padding = box(<span class="hljs-number">5.</span>px)
+        }
+    }
+}
+</code></pre>
+<p>But suppose when we applied <code>critical</code> to any control, such as an <code>HBox</code>, we want it to add additional stylings to buttons inside that control. Nesting another selection will do the trick.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> critical by cssclass()
+    }
+    init {
+        critical {
+            borderColor +</span>= box(Color.ORANGE)
+            padding = box(<span class="hljs-number">5.</span>px)
+            button {
+                backgroundColor += Color.RED
+                textFill = Color.WHITE
+            }
+        }
+    }
+}
+</code></pre>
+<p>Now when you apply <code>critical</code> to say, an <code>HBox</code>, all buttons inside that <code>HBox</code> will get that defined style for <code>button</code> (Figure 6.7)</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">MyStyle::class) {</span></span>
+    init {
+        reloadStylesheetsOnFocus()
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span>: <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = hbox {
+        addClass(MyStyle.critical)
+        button(<span class="hljs-string">&quot;Warning!&quot;</span>)
+        button(<span class="hljs-string">&quot;Danger!&quot;</span>)
+    }
+}
+</code></pre>
+<p><strong>Figure 6.7</strong></p>
+<p><img src="https://i.imgur.com/WiMNQQs.png" alt=""></p>
+<p>There is one critical thing to not confuse here. <em>The orange border is only applied to the HBox</em> since the <code>critical</code> class was applied to it. The buttons do not get an orange border because they are children to the <code>HBox</code>. While their style is defined by <code>critical</code>, they do not inherit the styles of their parent, only those defined for <code>button</code>.</p>
+<p>If you want the buttons to get an orange border too, you need to apply the <code>critical</code> class directly to them. You will want to use the <code>and()</code> to apply specific styles to buttons that are also declared as <code>critical</code>.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyStyle</span>: <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> critical by cssclass()
+    }
+
+    init {
+        critical {
+
+            borderColor +</span>= box(Color.ORANGE)
+            padding = box(<span class="hljs-number">5.</span>px)
+
+            and(button) {
+                backgroundColor += Color.RED
+                textFill = Color.WHITE
+            }
+        }
+    }
+}
+</code></pre>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">MyStyle::class) {</span></span>
+    init {
+        reloadStylesheetsOnFocus()
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span>: <span class="hljs-type">View</span></span>() {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = hbox {
+        addClass(MyStyle.critical)
+
+        button(<span class="hljs-string">&quot;Warning!&quot;</span>) {
+            addClass(MyStyle.critical)
+        }
+
+        button(<span class="hljs-string">&quot;Danger!&quot;</span>) {
+            addClass(MyStyle.critical)
+        }
+    }
+}
+</code></pre>
+<p><strong>Figure 6.8</strong></p>
+<p><img src="https://i.imgur.com/o1LNT6W.png" alt=""></p>
+<p>Now you have orange borders around the <code>HBox</code> as well as the buttons. When nesting styles, keep in mind that wrapping the selection with <code>and()</code> will cascade styles to children controls or classes.</p>
+<h2 id="mixins">Mixins</h2>
+<p>There are times you may want to reuse a set of stylings and apply them to several controls and selectors. This prevents you from having to redundantly define the same properties and values. For instance, if you want to create a set of styling called <code>redAllTheThings</code>, you could define it as a mixin as shown below. Then you can reuse it for a <code>redStyle</code> class, as well as a <code>textInput</code>, a <code>label</code>, and a <code>passwordField</code> with additional style modifications (Figure 6.9).</p>
+<p><strong>Stylesheet</strong></p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.paint.Color
+<span class="hljs-keyword">import</span> javafx.scene.text.FontWeight
+<span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Styles</span> : <span class="hljs-type">Stylesheet</span></span>() {
+
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> redStyle by cssclass().
+    }
+
+    init {
+        <span class="hljs-keyword">val</span> redAllTheThings</span> = mixin {
+            backgroundInsets += box(<span class="hljs-number">5.</span>px)
+            borderColor += box(Color.RED)
+            textFill = Color.RED
+        }
+
+        redStyle {
+            +redAllTheThings
+        }
+
+        s(textInput, label) {
+            +redAllTheThings
+            fontWeight = FontWeight.BOLD
+        }
+
+        passwordField {
+            +redAllTheThings
+            backgroundColor += Color.YELLOW
+        }
+    }
+}
+</code></pre>
+<p><strong>App and View</strong></p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">Styles::class)</span></span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span> : <span class="hljs-type">View</span></span>(<span class="hljs-string">&quot;My View&quot;</span>) {
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = vbox {
+        label(<span class="hljs-string">&quot;Enter your login&quot;</span>)
+        form {
+            fieldset{
+                field(<span class="hljs-string">&quot;Username&quot;</span>) {
+                    textfield()
+                }
+                field(<span class="hljs-string">&quot;Password&quot;</span>) {
+                    passwordfield()
+                }
+            }
+        }
+        button(<span class="hljs-string">&quot;Go!&quot;</span>) {
+            addClass(Styles.redStyle)
+        }
+    }
+}
+</code></pre>
+<p><strong>Figure 6.9</strong></p>
+<p><img src="https://i.imgur.com/Q6JLPec.png" alt=""></p>
+<p>The stylesheet is applied to the application by adding it as a constructor parameter to the App class. This is a vararg parameter, so you can send in a comma separated list of multiple stylesheets. If you want to load stylesheets dynamically based on some condition, you can call <code>importStylesheet(Styles::class)</code> from anywhere. Any UIComponent opened after the call to <code>importStylesheet</code> will get the stylesheet applied. You can also load normal text based css stylesheets with this function:</p>
+<pre><code class="lang-kotlin">importStylesheet(<span class="hljs-string">&quot;/mystyles.css&quot;</span>)
+</code></pre>
+<blockquote>
+<p>Loading a text based css stylesheet</p>
+</blockquote>
+<p>If you find you are repeating yourself setting the same CSS properties to the same values, you might want to consider using mixins and reusing them wherever they are needed in a <code>Stylesheet</code>.</p>
+<h2 id="modifier-selections">Modifier Selections</h2>
+<p>TornadoFX also supports modifier selections by leveraging <code>and()</code> functions within a selection. The most common case this is handy is styling for &quot;selected&quot; and cursor &quot;hover&quot; contexts for a control.</p>
+<p>If you wanted to create a UI that will make any <code>Button</code> red when it is hovered over, and any selected <code>Cell</code> in data controls such as <code>ListView</code> red, you can define a <code>Stylesheet</code> like this (Figure 6.10).</p>
+<p><strong>Stylesheet</strong></p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> javafx.scene.paint.Color
+<span class="hljs-keyword">import</span> tornadofx.Stylesheet
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Styles</span> : <span class="hljs-type">Stylesheet</span></span>() {
+
+    init {
+        button {
+            and(hover) {
+                backgroundColor += Color.RED
+            }
+        }
+        cell {
+            and(selected) {
+                backgroundColor += Color.RED
+            }
+        }
+    }
+}
+</code></pre>
+<p><strong>App and View</strong></p>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">import</span> tornadofx.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyApp</span>: <span class="hljs-type">App</span></span>(MyView::<span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">Styles::class)</span></span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyView</span> : <span class="hljs-type">View</span></span>(<span class="hljs-string">&quot;My View&quot;</span>) {
+
+    <span class="hljs-variable"><span class="hljs-keyword">val</span> listItems</span> = listOf(<span class="hljs-string">&quot;Alpha&quot;</span>,<span class="hljs-string">&quot;Beta&quot;</span>,<span class="hljs-string">&quot;Gamma&quot;</span>).observable()
+and
+    <span class="hljs-keyword">override</span> <span class="hljs-variable"><span class="hljs-keyword">val</span> root</span> = vbox {
+        button(<span class="hljs-string">&quot;Hover over me&quot;</span>)
+        listview(listItems)
+    }
+}
+</code></pre>
+<p><strong>Figure 6.10</strong> - A cell is selected and the <code>Button</code> is being hovered over. Both are now red.</p>
+<p><img src="https://i.imgur.com/Z4BzAYS.png" alt=""></p>
+<p>Whenever you need modifiers, use the <code>select()</code> function to make those contextual style modifications.</p>
+<h2 id="control-specific-stylesheets">Control-Specific Stylesheets</h2>
+<p>If you decide to create your own controls (often by extending an existing control, like <code>Button</code>), JavaFX allows you to pair a stylesheet with it. In this situation, it is advantageous to load this <code>Stylesheet</code> only when this control is loaded. For instance, if you have a <code>DangerButton</code> class that extends <code>Button</code>, you might consider creating a <code>Stylesheet</code> specifically for that <code>DangerButton</code>. To allow JavaFX to load it, you need to override the <code>getUserAgentStyleSheet()</code> function as shown below. This will convert your type-safe <code>Stylesheet</code> into plain text CSS that JavaFX natively understands.</p>
+<pre><code class="lang-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DangerButton</span> : <span class="hljs-type">Button</span></span>(<span class="hljs-string">&quot;Danger!&quot;</span>) {
+    init {
+        addClass(DangerButtonStyles.dangerButton)
+    }
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">getUserAgentStylesheet</span><span class="hljs-params">()</span> = <span class="hljs-title">DangerButtonStyles</span><span class="hljs-params">()</span>.base64URL.<span class="hljs-title">toExternalForm</span><span class="hljs-params">()</span></span>
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DangerButtonStyles</span> : <span class="hljs-type">Stylesheet</span></span>() {
+    <span class="hljs-keyword">companion</span> <span class="hljs-keyword">object</span> {
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> dangerButton by cssclass()
+    }
+
+    init {
+        dangerButton {
+            backgroundInsets +</span>= box(<span class="hljs-number">0.</span>px)
+            fontWeight = FontWeight.BOLD
+            fontSize = <span class="hljs-number">20.</span>px
+            padding = box(<span class="hljs-number">10.</span>px)
+        }
+    }
+}
+</code></pre>
+<p>The <code>DangerButtonStyles().base64URL.toExternalForm()</code> expression creates an instance of the <code>DangerButtonStyles</code>, and turns it into a URL containing the entire stylesheet that JavaFX can consume.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>TornadoFX does a great job executing a brilliant concept to make CSS type-safe, and it further demonstrates the power of Kotlin DSL&apos;s. Configuration through static text files is slow to express with, but type-safe CSS makes it fluent and quick especially with IDE auto-completion. Even if you are pragmatic about UI&apos;s and feel styling is superfluous, there will be times you need to leverage conditional formatting and highlighting so rules &quot;pop out&quot; in a UI. At minimum, get comfortable using the inline <code>style { }</code> block so you can quickly access styling properties that cannot be accessed any other way (such as <code>TextWeight</code>).</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="5. Data Controls.html" class="navigation navigation-prev " aria-label="Previous page: 5. Data Controls">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="7. Layouts and Menus.html" class="navigation navigation-next " aria-label="Next page: 7. Layouts and Menus">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"6. Type Safe CSS","level":"1.2.6","depth":2,"next":{"title":"7. Layouts and Menus","level":"1.2.7","depth":2,"path":"part1/7. Layouts and Menus.md","ref":"part1/7. Layouts and Menus.md","articles":[]},"previous":{"title":"5. Data Controls","level":"1.2.5","depth":2,"path":"part1/5. Data Controls.md","ref":"part1/5. Data Controls.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part1/6. CSS.md","mtime":"2020-02-13T15:46:37.950Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-13T15:47:39.413Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,700 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Dependency Injection · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Wizard.html" />
+    
+    
+    <link rel="prev" href="JSON and REST.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../part1/0. Subsection.html">
+            
+                <a href="../part1/0. Subsection.html">
+            
+                    
+                    第一部分: TornadoFX 基本介紹
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../part1/1. Why TornadoFX.html">
+            
+                <a href="../part1/1. Why TornadoFX.html">
+            
+                    
+                    1. 為什麼選擇 TornadoFX?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../part1/2. Setting Up.html">
+            
+                <a href="../part1/2. Setting Up.html">
+            
+                    
+                    2. 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../part1/3. Components.html">
+            
+                <a href="../part1/3. Components.html">
+            
+                    
+                    3. 組件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../part1/4. Basic Controls.html">
+            
+                <a href="../part1/4. Basic Controls.html">
+            
+                    
+                    4. Basic Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../part1/5. Data Controls.html">
+            
+                <a href="../part1/5. Data Controls.html">
+            
+                    
+                    5. Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../part1/6. CSS.html">
+            
+                <a href="../part1/6. CSS.html">
+            
+                    
+                    6. Type Safe CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../part1/7. Layouts and Menus.html">
+            
+                <a href="../part1/7. Layouts and Menus.html">
+            
+                    
+                    7. Layouts and Menus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../part1/8. Charts.html">
+            
+                <a href="../part1/8. Charts.html">
+            
+                    
+                    8. Charts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../part1/9. Shapes and Animation.html">
+            
+                <a href="../part1/9. Shapes and Animation.html">
+            
+                    
+                    9. Shapes and Animation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../part1/10. FXML.html">
+            
+                <a href="../part1/10. FXML.html">
+            
+                    
+                    10. FXML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../part1/11. Editing Models and Validation.html">
+            
+                <a href="../part1/11. Editing Models and Validation.html">
+            
+                    
+                    11. Editing Models and Validation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../part1/12. TornadoFX IDEA Plugin.html">
+            
+                <a href="../part1/12. TornadoFX IDEA Plugin.html">
+            
+                    
+                    12. TornadoFX IDEA Plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="0. Subsection.html">
+            
+                <a href="0. Subsection.html">
+            
+                    
+                    Part 2: TornadoFX Advanced Features
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Property Delegates.html">
+            
+                <a href="Property Delegates.html">
+            
+                    
+                    Property Delegates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Advanced Data Controls.html">
+            
+                <a href="Advanced Data Controls.html">
+            
+                    
+                    Advanced Data Controls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="OSGi.html">
+            
+                <a href="OSGi.html">
+            
+                    
+                    OSGi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Scopes.html">
+            
+                <a href="Scopes.html">
+            
+                    
+                    Scopes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="EventBus.html">
+            
+                <a href="EventBus.html">
+            
+                    
+                    EventBus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Workspaces.html">
+            
+                <a href="Workspaces.html">
+            
+                    
+                    Workspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="Layout Debugger.html">
+            
+                <a href="Layout Debugger.html">
+            
+                    
+                    Layout Debugger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="Internationalization.html">
+            
+                <a href="Internationalization.html">
+            
+                    
+                    Internationalization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="Config Settings and State.html">
+            
+                <a href="Config Settings and State.html">
+            
+                    
+                    Config Settings and State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="JSON and REST.html">
+            
+                <a href="JSON and REST.html">
+            
+                    
+                    JSON and REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.11" data-path="Dependency Injection.html">
+            
+                <a href="Dependency Injection.html">
+            
+                    
+                    Dependency Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="Wizard.html">
+            
+                <a href="Wizard.html">
+            
+                    
+                    Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="Integration.html">
+            
+                <a href="Integration.html">
+            
+                    
+                    Integrating with other tech
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part3/0. Subsection.html">
+            
+                <a href="../part3/0. Subsection.html">
+            
+                    
+                    Part 3: Cook Book
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../part3/Snippets.html">
+            
+                <a href="../part3/Snippets.html">
+            
+                    
+                    Snippets
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Dependency Injection</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="dependency-injection">Dependency Injection</h1>
+<p><code>View</code> and <code>Controller</code> are singletons, so you need some way to access the instance of a specific component. Tornado FX supports dependency injection, but you can also lookup components with the <code>find</code> function.</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> myController</span> = find(MyController::<span class="hljs-class"><span class="hljs-keyword">class</span>)</span>
+</code></pre>
+<p>When you call <code>find</code>, the component corresponding to the given class is looked up in a global component registry. If it did not exist prior to the call, it will be created and inserted into the registry before the function returns.</p>
+<p>If you want to declare the controller referance as a field member however, you should use the <code>inject</code> delegate instead. This is a lazy mechanism, so the actual instance will only be created the first time you call a function on the injected resource. Using <code>inject</code> is always prefered, as it allows your components to have circular dependencies.</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> myController</span>: MyController by inject()
+</code></pre>
+<h2 id="third-party-injection-frameworks">Third party injection frameworks</h2>
+<p>TornadoFX makes it easy to inject resources from a third party dependency injection framework, like for example Guice or Spring. All you have to do is implement the very simple <code>DIContainer</code> interface when you start your application. Let&apos;s say you have a Guice module configured with a fictive <code>HelloService</code>. Start Guice in the <code>init</code> block of your <code>App</code> class and register the module with TornadoFX:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> guice</span> = Guice.createInjector(MyModule())
+
+FX.dicontainer = <span class="hljs-keyword">object</span> : DIContainer {
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-type">&lt;T : Any&gt;</span> <span class="hljs-title">getInstance</span><span class="hljs-params">(type: <span class="hljs-type">KClass&lt;T&gt;</span>)</span></span>
+        = guice.getInstance(type.java)
+}
+</code></pre>
+<blockquote>
+<p>The DIContainer implementation is configured to delegate lookups to <code>guice.getInstance</code></p>
+</blockquote>
+<p>To inject the <code>HelloService</code> configured in <code>MyModule</code>, use the <code>di</code> delegate instead of the <code>inject</code> delegate:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> MyView</span> : View() {
+    <span class="hljs-variable"><span class="hljs-keyword">val</span> helloService</span>: HelloService by di()
+}
+</code></pre>
+<p>The <code>di</code> delegate accepts any bean type, while <code>inject</code> will only allow beans of type <code>ScopedInstance</code>, which includes TornadoFX&apos;s <code>View</code> and <code>Controller</code>. This keeps a clean separation between your UI beans and any beans configured in the external dependency injection framework.</p>
+<h2 id="setting-up-for-spring">Setting up for Spring</h2>
+<p>Above the setup for Guice is shown. Setting up for Spring, in this case using <code>beans.xml</code> as <code>ApplicationContext</code> is done as follows:</p>
+<h3 id="beansxml">beans.xml</h3>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version = <span class="hljs-string">&quot;1.0&quot;</span> encoding = <span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">beans</span> <span class="hljs-attr">xmlns</span> = &quot;<span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">beans</span>&quot;
+       <span class="hljs-attr">xmlns:xsi</span> = &quot;<span class="hljs-attr">http:</span>//<span class="hljs-attr">www.w3.org</span>/<span class="hljs-attr">2001</span>/<span class="hljs-attr">XMLSchema-instance</span>&quot;
+       <span class="hljs-attr">xmlns:context</span> = &quot;<span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">context</span>&quot;
+       <span class="hljs-attr">xsi:schemaLocation</span> = &quot;<span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">beans</span>
+   <span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">beans</span>/<span class="hljs-attr">spring-beans-3.0.xsd</span>
+   <span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">context</span>
+   <span class="hljs-attr">http:</span>//<span class="hljs-attr">www.springframework.org</span>/<span class="hljs-attr">schema</span>/<span class="hljs-attr">context</span>/<span class="hljs-attr">spring-context-3.0.xsd</span>&quot;&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">context:component-scan</span> <span class="hljs-attr">base-package</span>=<span class="hljs-string">&quot;no.tornadofx.fxsample.springexample&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">context:annotation-config</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">beans</span>&gt;</span>
+</code></pre>
+<p>This sets Spring up to scan for beans.</p>
+<h3 id="application-startup">Application startup</h3>
+<pre><code class="lang-kotlin">class SpringExampleApp : App(SpringExampleView::class) {
+    init {
+        val springContext = ClassPathXmlApplicationContext(&quot;beans.xml&quot;)
+        FX.dicontainer = object : DIContainer {
+            override fun &lt;T : Any&gt; getInstance(type: KClass&lt;T&gt;): T = springContext.getBean(type.java)
+        }
+    }
+}
+</code></pre>
+<p>This initialized the spring context and hooks it into tornadoFX via the <code>FX.dicontainer</code>. Now you can inject Spring beans like this:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> helloBean</span> : HelloBean by di()
+</code></pre>
+<p>It is quite common in the Spring world to name a bean like so:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">id</span> = &quot;<span class="hljs-attr">helloWorld</span>&quot; <span class="hljs-attr">class</span> = &quot;<span class="hljs-attr">com.tutorialspoint.HelloWorld</span>&quot;&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span> = &quot;<span class="hljs-attr">message</span>&quot; <span class="hljs-attr">value</span> = &quot;<span class="hljs-attr">Hello</span> <span class="hljs-attr">World</span>!&quot;/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span>
+</code></pre>
+<p>The bean is then accessible using the <code>id</code>. This can be done in tornadoFX too:</p>
+<pre><code class="lang-kotlin">class SpringExampleApp : App(SpringExampleView::class) {
+    init {
+        val springContext = ClassPathXmlApplicationContext(&quot;beans.xml&quot;)
+        FX.dicontainer = object : DIContainer {
+            override fun &lt;T : Any&gt; getInstance(type: KClass&lt;T&gt;): T = springContext.getBean(type.java)
+            override fun &lt;T : Any&gt; getInstance(type: KClass&lt;T&gt;, name: String): T = springContext.getBean(type.java,name)
+        }
+    }
+}
+</code></pre>
+<p>The second <code>getInstance</code> uses both the type of the bean and the id of the bean. Instantiating a bean is down as:</p>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> helloBean</span> : HelloBean by di(<span class="hljs-string">&quot;helloWorld&quot;</span>)
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="JSON and REST.html" class="navigation navigation-prev " aria-label="Previous page: JSON and REST">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Wizard.html" class="navigation navigation-next " aria-label="Next page: Wizard">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Dependency Injection","level":"1.3.11","depth":2,"next":{"title":"Wizard","level":"1.3.12","depth":2,"path":"part2/Wizard.md","ref":"part2/Wizard.md","articles":[]},"previous":{"title":"JSON and REST","level":"1.3.10","depth":2,"path":"part2/JSON and REST.md","ref":"part2/JSON and REST.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part2/Dependency Injection.md","mtime":"2020-02-13T15:46:37.954Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-13T15:47:39.413Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
